@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url("sky.jpg");
+    background-size: cover
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.btncontainer {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+.btncontainer2 {
+  background-color: #0080ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
